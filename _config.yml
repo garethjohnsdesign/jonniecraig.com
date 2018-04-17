@@ -1,0 +1,58 @@
+---
+title: Jonnie Craig
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+url: https://www.jonniecraig.com
+baseurl: 
+description: Photographer based in London
+permalink: pretty
+exclude:
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Jonnie Craig
+email: info@jonniecraig.com
+google_site_verification: 
+analytics: 
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%Y"
+future: true
+social:
+  instagram: 
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
